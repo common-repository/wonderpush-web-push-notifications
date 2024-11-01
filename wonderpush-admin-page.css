@@ -1,0 +1,146 @@
+/**
+ * Top-level Stylesheet.
+ * These styles are only embedded in the WonderPush section of the WordPress admin.
+ */
+#wpcontent {
+  padding-left: 0 !important;
+}
+body {
+  background-color: #f1f1f1;
+  font-size: 13px;
+}
+.wonderpush-page .wonderpush-logo {
+  background: transparent url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2015.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0D%0A%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%22200px%22%20height%3D%2235px%22%20viewBox%3D%220%200%20200%2035%22%20enable-background%3D%22new%200%200%20200%2035%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M48.443%2C14.11c-4.217%2C0-7.217%2C2.921-7.217%2C7.163c0%2C4.273%2C3%2C7.217%2C7.217%2C7.217%0D%0A%09%09c4.218%2C0%2C7.218-2.943%2C7.218-7.217C55.661%2C17.032%2C52.661%2C14.11%2C48.443%2C14.11%20M48.443%2C26.6c-2.974%2C0-5.109-2.162-5.109-5.297%0D%0A%09%09c0-3.109%2C2.135-5.271%2C5.109-5.271c2.976%2C0%2C5.109%2C2.162%2C5.109%2C5.271C53.552%2C24.438%2C51.418%2C26.6%2C48.443%2C26.6%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M69.012%2C14.083c-2.597%2C0.028-4.515%2C1.055-5.515%2C3.218v-3.137h-2.11V28.41h2.11v-7.65%0D%0A%09%09c0.244-2.703%2C1.974-4.541%2C4.783-4.567c2.515%2C0%2C4.029%2C1.487%2C4.029%2C4.002v8.215h2.107v-8.785%0D%0A%09%09C74.417%2C16.193%2C72.419%2C14.083%2C69.012%2C14.083%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M92.12%2C17.247c-1.053-2.028-3.026-3.19-5.568-3.19c-4.029%2C0-6.839%2C2.946-6.839%2C7.217%0D%0A%09%09c0%2C4.244%2C2.81%2C7.244%2C6.866%2C7.244c2.541%2C0%2C4.488-1.16%2C5.541-3.162v3.055h2.11V8.352h-2.11V17.247z%20M86.985%2C26.627%0D%0A%09%09c-3.029%2C0-5.164-2.217-5.164-5.297c0-3.109%2C2.135-5.354%2C5.164-5.354c3%2C0%2C5.135%2C2.245%2C5.135%2C5.354%0D%0A%09%09C92.12%2C24.41%2C89.985%2C26.627%2C86.985%2C26.627%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M107.146%2C14.11c-4.137%2C0-7.054%2C2.949-7.054%2C7.193c0%2C4.244%2C2.892%2C7.189%2C7.082%2C7.189%0D%0A%09%09c2.378%2C0%2C4.379-0.865%2C5.73-2.379l-1.164-1.244c-1.106%2C1.164-2.647%2C1.785-4.404%2C1.785c-2.757%2C0-4.786-1.758-5.165-4.543h11.625%0D%0A%09%09C114.012%2C17.274%2C111.741%2C14.083%2C107.146%2C14.11%20M102.172%2C20.381c0.323-2.701%2C2.271-4.458%2C4.975-4.458%0D%0A%09%09c2.784%2C0%2C4.623%2C1.73%2C4.757%2C4.458H102.172z%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M121.552%2C17.329v-3.163h-2.108V28.41h2.108v-7.568c0.244-2.812%2C2.11-4.676%2C5.11-4.623v-2.136%0D%0A%09%09C124.254%2C14.11%2C122.497%2C15.246%2C121.552%2C17.329%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M138.984%2C9.488h-7.542V28.41h3.191v-5.703h4.351c4.761%2C0%2C7.488-2.486%2C7.488-6.757%0D%0A%09%09C146.473%2C11.841%2C143.745%2C9.488%2C138.984%2C9.488%20M138.852%2C19.842h-4.218v-7.488h4.218c2.918%2C0%2C4.567%2C1.189%2C4.567%2C3.678%0D%0A%09%09C143.419%2C18.598%2C141.77%2C19.842%2C138.852%2C19.842%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M161.419%2C21.113c0%2C2.514-1.459%2C4.434-3.948%2C4.486c-2.081%2C0-3.35-1.326-3.35-3.486v-8.084h-3.111v8.949%0D%0A%09%09c0%2C3.432%2C1.976%2C5.541%2C5.271%2C5.541c2.354-0.029%2C4.163-0.92%2C5.138-2.92v2.811h3.107V14.029h-3.107V21.113z%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M173.091%2C17.815c0-1.027%2C0.895-1.434%2C2.11-1.434c1.271%2C0%2C2.866%2C0.486%2C4.135%2C1.271l1.137-2.297%0D%0A%09%09c-1.298-0.919-3.217-1.46-5.027-1.46c-2.757%2C0-5.3%2C1.243-5.3%2C4.164c-0.026%2C5.189%2C7.542%2C3.541%2C7.542%2C6.488%0D%0A%09%09c0%2C1.078-1.024%2C1.539-2.352%2C1.539c-1.566%2C0-3.567-0.676-4.811-1.783l-1.108%2C2.217c1.432%2C1.299%2C3.674%2C2%2C5.784%2C2%0D%0A%09%09c2.892%2C0%2C5.515-1.324%2C5.515-4.271C180.744%2C19.031%2C173.091%2C20.463%2C173.091%2C17.815%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M194.445%2C13.922c-2.459%2C0-4.299%2C0.893-5.326%2C2.919V8.352h-3.108V28.41h3.108v-7.08%0D%0A%09%09c0-2.543%2C1.541-4.462%2C4.111-4.489c2.158%2C0%2C3.46%2C1.325%2C3.46%2C3.487v8.082h3.107v-8.947C199.798%2C16.032%2C197.797%2C13.922%2C194.445%2C13.922%0D%0A%09%09%22%2F%3E%0D%0A%09%3Cpath%20fill%3D%22%23FF6F61%22%20d%3D%22M38.656%2C1.818H25.282L24.37%2C4.3l-3.037%2C7.893L18.297%2C4.3l-0.912-2.482H4.01H0l12.235%2C29.348L13.816%2C35%0D%0A%09%09l1.644-3.834l5.873-13.847l5.869%2C13.847L28.844%2C35l1.582-3.834L42.667%2C1.818H38.656z%20M13.973%2C26.867L5.222%2C4.862h9.816l3.937%2C9.895%0D%0A%09%09L13.973%2C26.867z%20M28.69%2C26.867l-5.001-12.111l3.939-9.895h9.817L28.69%2C26.867z%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E%0D%0A") center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  min-height: 35px;
+  display: inline-block;
+  filter: brightness(100) brightness(0.3);
+}
+.wonderpush-page .box {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 20px;
+}
+.wonderpush-page .error {
+  margin: 0 0 5px 0;
+  background-color: #fef6f8;
+}
+button span.dashicons.dashicons-update.spin {
+  position: relative;
+  top: 3px;
+}
+.dashicons.spin {
+  animation: dashicons-spin 1s infinite;
+  animation-timing-function: linear;
+}
+@keyframes dashicons-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.access-token-form input[type=text] {
+  height: 28px;
+  margin-right: 5px;
+}
+.wonderpush-admin-page > header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.wonderpush-admin-page > header .wonderpush-logo {
+  width: 120px;
+  height: 44px;
+  margin-right: 5px;
+}
+.wonderpush-admin-page > header p {
+  opacity: 0.4;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+  max-width: 200px;
+  margin: 0;
+}
+.wonderpush-admin-page .wonderpush-admin-page-content {
+  min-height: 200px;
+  text-align: center;
+}
+.wonderpush-admin-page .wonderpush-admin-page-loader {
+  margin-top: 60px;
+}
+.wonderpush-admin-page .wonderpush-admin-page-loader .dashicons {
+  font-size: 44px !important;
+  width: 44px !important;
+  height: 44px !important;
+}
+.new-badge:after {
+  content: 'NEW';
+  background: #b94a48;
+  color: white;
+  font-size: 9px;
+  font-weight: bold;
+  border-radius: 7px;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 5px;
+  vertical-align: super;
+  margin-left: 5px;
+}
+.metric {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+}
+.metric span {
+  display: block;
+}
+.metric .legend {
+  font-size: 0.8em;
+}
+.metric .number {
+  font-size: 2em;
+  padding: 5px;
+}
+.configuration-form {
+  text-align: left;
+}
+.configuration-form h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.configuration-form p {
+  max-width: 450px;
+}
+.configuration-form .access-token-form input {
+  width: 60%;
+}
+.configuration-form .settings {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.configuration-form .settings .help {
+  color: #777;
+}
+.configuration-form .settings .row.textfield .help {
+  display: flex;
+  align-items: flex-end;
+}
+.configuration-form .settings .row.textfield.subsetting .form-group {
+  padding: 0 35px;
+}
+.configuration-form .nav-item.active {
+  font-weight: bold;
+}
+.configuration-needed {
+  text-align: center;
+}
+.configuration-needed .col.configure {
+  padding: 50px 0;
+}

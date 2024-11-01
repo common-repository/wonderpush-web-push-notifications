@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="wonderpush" horiz-adv-x="1000" >
+<font-face font-family="wonderpush" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="vector-smart-object2" unicode="&#xe800;" d="M1165 850h-403l-28-75-91-238-92 238-27 75-403 0h-121l369-884 47-116 50 116 177 417 177-417 49-116 48 116 369 884h-121z m-744-755l-264 663h296l119-298-151-365z m444 0l-151 365 119 298h295l-263-663z" horiz-adv-x="1286" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'WonderPush';
+  src: url('./wonderpush.eot?33473933');
+  src: url('./wonderpush.eot?33473933#iefix') format('embedded-opentype'),
+       url('./wonderpush.woff2?33473933') format('woff2'),
+       url('./wonderpush.woff?33473933') format('woff'),
+       url('./wonderpush.ttf?33473933') format('truetype'),
+       url('./wonderpush.svg?33473933#wonderpush') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

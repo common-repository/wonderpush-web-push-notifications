@@ -1,0 +1,37 @@
+/**
+ * Global Stylesheet.
+ * These styles are embedded into every WordPress admin page.
+ */
+@import url('./font/wonderpush.css');
+
+#adminmenu .toplevel_page_wonderpush.menu-icon-generic div.wp-menu-image:before {
+    font-family: 'WonderPush' !important;
+    content: '\E800';
+    font-size: 1.3em !important
+}
+
+#wonderpush_editor {
+    padding: 15px;
+    background-color: #efefef;
+}
+
+#wonderpush_editor .wonderpush_target {
+    padding: 0 0 15px 25px;
+}
+#wonderpush_editor .wonderpush_target input[type=search]::placeholder {
+    opacity: 0.6;
+}
+#wonderpush_editor label {
+    opacity: 0.7;
+    display: block;
+}
+#wonderpush_editor .wonderpush_target label {
+    display: block;
+}
+#wonderpush_editor .wonderpush_target .select2 {
+    min-width: 250px;
+    max-width: 400px;
+}
+#wonderpush_editor .wonderpush_utm_summary a.wonderpush_configure {
+    display: block;
+}
